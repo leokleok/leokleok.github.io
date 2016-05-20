@@ -1,4 +1,94 @@
-body {
+.sidebar {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #429bd5;
+  width: 35%;
+  height: 800px;
+  text-align: center;
+}
+
+#logo {
+  padding: 15px;
+}
+
+/*background-color: #f0f0f0;*/
+
+#greet{
+  color: white;
+  font-family: 'myraid', sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  }
+
+#typingelement {
+  font-size: 20px;
+  font-family: 'myraid', sans-serif;
+  color: white;
+}
+
+.typed-cursor{
+    color: white;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+footer {
+  font-size: 12px;
+  font-family: 'roboto', sans-serif;
+  color: white;
+  position: fixed;
+  bottom: 4%;
+  left: 12.5%;
+}
+
+footer.hr {
+  width:20%;
+}
+
+a{
+  color:#429bd5;
+}
+
+#github {
+  color: #e6e6e6;
+  padding:5px;
+}
+
+#twitter {
+  color: #e6e6e6;
+  padding:5px;
+}
+
+#linkedin {
+  color: #e6e6e6;
+  padding:5px;
+}
+
+
+
+
+
+
+
+
+/*body {
   font-family: 'Montserrat', sans-serif;
   color: black;
   font-size: 20px;
@@ -8,17 +98,17 @@ body {
   display: flex; }
 
 .content {
-  width: 70%; }
+  width: 70%; }*/
 
-.sidebar {
+/*.sidebar {
   border: 2px solid white;
   border-radius: 25px;
   top: 0;
   bottom: 0;
   left: 0;
   width: 30%;
-  background: #FF7F50; }
-
+  background: #FF7F50; }*/
+/*
 li {
   font-size: 28px; }
 
@@ -71,11 +161,11 @@ a:link {
 
 #education {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif; }*/
 
-@media only screen and (max-width: 640px) {
+/*@media only screen and (max-width: 640px) {*/
   /*style*/
-  body {
+  /*body {
     flex-direction: column; }
 
   .sidebar {
@@ -85,6 +175,6 @@ a:link {
     width: 100%; }
 
   #picture {
-    width: 50%; } }
+    width: 50%; } }*/
 
 /*# sourceMappingURL=style.css.map */

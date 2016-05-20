@@ -6,77 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <title> LS Responsive Design </title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+
+    <title> Koh Leok Si </title>
   </head>
 
 
 <body>
 
-      <nav class="sidebar">
-          <img id="picture" src="http://i1028.photobucket.com/albums/y349/unconformist/LS_zps1nzlnxqs.png" </img>
+<div class='sidebar'>
+<img id="logo" src="css/images/logo.png" width="170" height="170">
 
-           <div class="skillset">
-             <h1> Skills </h1>
-             <ul>
-               <li> html </li>
-               <li> css </li>
-               <li> javascript </li>
-               <li> adobe photoshop </li>
-               <li> adobe illustrator </li>
-             </ul>
-             </div>
+  <div id='greet'>
+    <div> Hello there! </div>
+  </div>
+  <div id="typingelement"> </div>
 
-      </nav>
+  <div></div>
+  <div></div>
 
-    <nav class="content">
 
-        <main class ="title">
-        <h1><i class="fa fa-venus"> </i> Profile </h1>
-        <p> Web Developer in the making </p>
-        <p> Entrepreneur </p>
+  <footer>
+  <div id ="footer">
+  <h5>Built with</h5>
+  <h5> Html, Css, Font Awesome </h5>
+  <h5>Typed Animation by Typed.js</h5>
+  </div>
+  <hr>
+  <div id="social">
+  <a href="https://github.com/leokleok"> <i id="github" class="fa fa-github fa-2x"></i>
+  <a href="https://twitter.com/iamleok"> <i id="twitter" class="fa fa-twitter fa-2x"></i>
+  <a href="https://www.linkedin.com/in/leoksi"> <i id="linkedin" class="fa fa-linkedin-square fa-2x"></i>
+  </div>
+  </footer>
+</div>
 
-        </main>
 
-          <section class="title">
-            <h1><i class="fa fa-file-text-o"> </i> Portfolio</h1>
 
-            <div id="display">
-            <div class="column">
-          <h4>Tic Tac Toe</h4>
-          <p> <a href= "http://leokleok.github.io/Tic-Tac-Toe"> Tic Tac Toe </a> </p>
-             </div>
+<script src="jquery.js"></script>
+<script src="typed.js"></script>
+<script>
+    $(function(){
+        $("#typingelement").typed({
+            strings: ["My Name is Leok Si. </br> I'm a Web Developer."],
+            typeSpeed: 20
+        });
+    });
+</script>
 
-             <div class="column">
-          <h4>Timer</h4>
-          <p> <a href= "http://leokleok.github.io/Timer"> Timer </a></p>
-             </div>
+</body>
 
-              <div class="column">
-          <h4>Calculator</h4>
-          <p> <a href= "http://leokleok.github.io/calculator"> Calculator </a></p>
-             </div>
-          </div>
 
-          </section>
 
+
+    <!-- <nav class="sidebar">
+        <img id="picture" src="http://i1028.photobucket.com/albums/y349/unconformist/LS_zps1nzlnxqs.png" </img> -->
+
+         <!-- <div class="skillset">
+           <h1> Skills </h1>
+           <ul>
+             <li> html </li>
+             <li> css </li>
+             <li> javascript </li>
+             <li> adobe photoshop </li>
+             <li> adobe illustrator </li>
+           </ul>
+           </div>
+
+    </nav>
+
+  <nav class="content">
+
+      <main class ="title">
+      <h1><i class="fa fa-venus"> </i> Profile </h1>
+      <p> Web Developer in the making </p>
+      <p> Entrepreneur </p>
+
+      </main>
 
         <section class="title">
-          <h1> <i class="fa fa-graduation-cap"> </i> Education </h1>
+          <h1><i class="fa fa-file-text-o"> </i> Portfolio</h1>
 
-            <ul>
-            <li id ="education"> General Assembly </li>
-              <br>
-                <ul>
-                  <li id ="education"> Web Development Immersive Program </li>
-                </ul>
-        <br>
+          <div id="display">
+          <div class="column">
+        <h4>Tic Tac Toe</h4>
+        <p> <a href= "http://leokleok.github.io/Tic-Tac-Toe"> Tic Tac Toe </a> </p>
+           </div>
 
+           <div class="column">
+        <h4>Timer</h4>
+        <p> <a href= "http://leokleok.github.io/Timer"> Timer </a></p>
+           </div>
+
+            <div class="column">
+        <h4>Calculator</h4>
+        <p> <a href= "http://leokleok.github.io/calculator"> Calculator </a></p>
+           </div>
+        </div>
 
         </section>
 
-
-        </nav>
-
-    </body>
-
-
+      </nav> -->
