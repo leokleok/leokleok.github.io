@@ -11,17 +11,28 @@
   padding: 15px;
 }
 
+/*#logo:hover {
+  background: url('images/logoswap.png') no-repeat;
+  width:170;
+  height:170;
+  padding:15px;
+}*/
 /*background-color: #f0f0f0;*/
 
 #greet{
   color: white;
-  font-family: 'myraid', sans-serif;
-  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
   padding: 10px;
   }
 
 #typingelement {
-  font-size: 20px;
+  font-size: 24.5px;
+  font-family: 'myraid', sans-serif;
+  color: white;
+}
+
+#aboutme {
   font-family: 'myraid', sans-serif;
   color: white;
 }
@@ -58,8 +69,15 @@ footer {
   left: 12.5%;
 }
 
-footer.hr {
+/*footer.hr {
   width:20%;
+}*/
+
+hr {
+  border: 0;
+  width: 100%;
+  background-color: white;
+  height: 1.2px;
 }
 
 a{
@@ -67,25 +85,30 @@ a{
 }
 
 #github {
-  color: #e6e6e6;
+  color: #343d39;
   padding:5px;
 }
 
 #twitter {
-  color: #e6e6e6;
+  color: #343d39;
   padding:5px;
 }
 
 #linkedin {
-  color: #e6e6e6;
+  color: #343d39;
   padding:5px;
 }
 
+.projects {
+  background-color: grey;
+  width: 300px;
+  height: 800px;
+  box-sizing: border-box;
+}
 
-
-
-
-
+body {
+  display: flex;
+}
 
 
 /*body {
