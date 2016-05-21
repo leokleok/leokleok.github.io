@@ -1,3 +1,7 @@
+body {
+  display: flex;
+}
+
 .sidebar {
   border: 1px solid white;
   border-radius: 10px;
@@ -99,16 +103,13 @@ a{
   padding:5px;
 }
 
-.projects {
+/*.projects {
   background-color: grey;
   width: 300px;
   height: 800px;
   box-sizing: border-box;
-}
+}*/
 
-body {
-  display: flex;
-}
 
 
 /*body {
