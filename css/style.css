@@ -15,13 +15,13 @@ body {
   padding: 15px;
 }
 
-/*#logo:hover {
+/*img:hover {
   background: url('images/logoswap.png') no-repeat;
   width:170;
   height:170;
-  padding:15px;
+
 }*/
-/*background-color: #f0f0f0;*/
+
 
 #roboleok{
   color: white;
@@ -74,7 +74,7 @@ footer {
 
 hr {
   border: 0;
-  width: 28%;
+  width: 32%;
   background-color: white;
   height: 1.2px;
 }
@@ -94,6 +94,11 @@ a{
 }
 
 #linkedin {
+  color: #343d39;
+  padding:5px;
+}
+
+#email {
   color: #343d39;
   padding:5px;
 }
@@ -142,7 +147,12 @@ a{
   font-family: 'Montserrat', sans-serif;
   color: white;
   padding: 5px;
+}
 
+#language {
+  text-align: center;
+  position:relative;
+  bottom: -50px;
 }
 
 
