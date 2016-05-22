@@ -105,7 +105,8 @@ a{
 @media only screen and (max-width: 640px) {
 
 body {
-  flex-direction: column; }
+  flex-wrap: wrap;
+  }
 .sidebar {
   width: 100%; } }
 
