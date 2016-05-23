@@ -193,6 +193,10 @@ body {
   flex-direction: column;
 }
 
+#language {
+  font-size: 9px;
+}
+
 }
 
 @media only screen and (max-width: 1024px) {
