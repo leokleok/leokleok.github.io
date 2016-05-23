@@ -5,11 +5,12 @@ body {
 .sidebar {
   border: 2px solid white;
   border-radius: 30px;
-  background-color: #429bd5;
+  background-color:#34b4e4;
   width: 35%;
   height: auto;
   text-align: center;
 }
+/*background-color: #429bd5;*/
 
 #logo {
   padding: 15px;
@@ -98,7 +99,7 @@ hr {
 }
 
 a{
-  color:#429bd5;
+  color::#34b4e4;
 }
 
 #github {
@@ -147,7 +148,7 @@ a{
 }
 
 #bluegrid {
-  background-color: #429bd5
+  background-color:#34b4e4;
 }
 
 .picturegrid {
@@ -180,7 +181,13 @@ body {
   flex-wrap: wrap;
   }
 .sidebar {
-  width: 100%; } }
+  width: 100%; }
+
+.projects {
+  width: 300%;
+}
+
+}
 
 
 
