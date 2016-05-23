@@ -183,9 +183,41 @@ body {
 .sidebar {
   width: 100%; }
 
-.projects {
+.projects{
   width: 300%;
+  flex-direction: column;
 }
+
+.gridrow{
+  width: 300%;
+  flex-direction: column;
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+body {
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+  .sidebar {
+    width: 100%;
+  }
+
+  .projects{
+    width: 200%;
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+  }
+
+  .gridrow{
+    width: 200%;
+    flex-direction: column;
+  }
+  .grid {
+    width: 100%
+  }
 
 }
 
