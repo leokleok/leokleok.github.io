@@ -224,21 +224,8 @@ span.text span {
   opacity: 1;
 }
 
-@media only screen  and (min-device-width: 1200px) and (max-device-width: 1600px) {
-  body {
-    flex-wrap: wrap;
-    }
 
-  .sidebar {
-    width: 35%;
-  }
-
-  .projects {
-    width: 64%;
-  }
-}
-
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 767px) {
 
 body {
   flex-wrap: wrap;
@@ -248,30 +235,33 @@ body {
   width: 100%;
 }
 
-.projects {
-  width: 300%;
-  flex-direction: row;
- }
-
 .gridrow{
- width: 300%;
  flex-direction: column;
- }
+}
 
-#language {
- font-size: 9px;
- }
+.grid {
+  width: 150%;
+}
 
 #aboutme {
  letter-spacing: 1px;
  }
+
+ #typingelement {
+  padding: 2.5px;
+ }
+
+ #language {
+  font-size: 14px;
+  }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen
+and (min-width: 768px)
+and (max-width: 1024px){
 
 body {
  flex-wrap: wrap;
- direction: row;
 }
 
 .sidebar {
@@ -279,16 +269,27 @@ body {
 }
 
 .projects {
- width: 200%;
- flex-direction: row;
+  width: 200%;
+  flex-direction: row;
 }
 
 .gridrow {
  width: 200%;
  flex-direction: column;
 }
-
 .grid {
- width: 100%
+   width: 100%;
+ }
 }
+
+/*@media screen and (min-width: 1025px) {
+  .sidebar {
+   width: 35%;
+   height: auto;
+  }
+  .projects {
+    width: 64%;
+    height: auto;
+  }*/
+
 }
