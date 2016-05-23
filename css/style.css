@@ -164,6 +164,14 @@ a{
   top: 25px;
 }
 
+#lspic {
+  height: 160px;
+  width: 160px;
+  border-radius: 30px;
+  margin:auto;
+  position:relative;
+}
+
 .textgrid {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
