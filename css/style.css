@@ -58,6 +58,9 @@ body {
 #aboutme {
   font-family: 'myraid', sans-serif;
   color: white;
+  padding:42px;
+  position:relative;
+  top: 30px;
 }
 
 .typed-cursor{
@@ -137,7 +140,7 @@ a{
 }
 
 .grid {
-  height: 398px;
+  height: 402px;
   width: 33.33%;
   border-radius: 30px;
   border: 2px white solid;
@@ -195,6 +198,10 @@ body {
 
 #language {
   font-size: 9px;
+}
+
+#aboutme {
+letter-spacing: 1px;
 }
 
 }
