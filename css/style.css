@@ -7,7 +7,7 @@ body {
   border-radius: 30px;
   background-color:#34b4e4;
   width: 35%;
-  height: 100%;
+  height: 802px;
   text-align: center;
 }
 /*background-color: #429bd5;*/
@@ -50,9 +50,11 @@ body {
   }
 
 #typingelement {
-  font-size: 24.5px;
+  font-size: 22px;
   font-family: 'myraid', sans-serif;
-  color: white;
+  color: #343d39;
+  position:relative;
+  bottom: -150px;
 }
 
 #aboutme {
@@ -60,15 +62,15 @@ body {
   color: white;
   padding:42px;
   position:relative;
-  top: 30px;
+  top: 2px;
 }
 
 .typed-cursor{
   color: white;
   opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  animation: blink 1s infinite;
 }
 @keyframes blink{
   0% { opacity:1; }
@@ -90,8 +92,8 @@ footer {
   font-size: 12px;
   font-family: 'roboto', sans-serif;
   color: white;
-  bottom: 4%;
-  left: 12.5%;
+  position: relative;
+  bottom: -150px;
 }
 
 hr {
@@ -141,7 +143,7 @@ a{
 }
 
 .grid {
-  height: 402px;
+  height: 400px;
   width: 33.33%;
   border-radius: 30px;
   border: 2px white solid;
@@ -158,11 +160,9 @@ a{
 .picturegrid {
   height: 160px;
   width: 160px;
-  border-radius: 30px;
-  background-color: white;
   margin:auto;
   position:relative;
-  top: 25px;
+  top: 50px;
 }
 
 #projectpic {
@@ -179,10 +179,19 @@ a{
   color: white;
   padding: 5px;
 }
+
+.greyhover {
+  position: relative;
+  bottom: -70px;
+}
 .greyhover:hover {
   color: #343d39;
 }
 
+.bluehover {
+  position: relative;
+  bottom: -70px;
+}
 .bluehover:hover {
   color: #34b4e4;
 }
@@ -233,6 +242,11 @@ body {
 
 .sidebar {
   width: 100%;
+}
+
+footer {
+  position: relative;
+  bottom: -136px;
 }
 
 .gridrow{
