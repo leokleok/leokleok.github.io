@@ -164,7 +164,7 @@ a{
   top: 25px;
 }
 
-#lspic {
+#projectpic {
   height: 160px;
   width: 160px;
   border-radius: 30px;
@@ -178,11 +178,46 @@ a{
   color: white;
   padding: 5px;
 }
+.greyhover:hover {
+  color: #343d39; }
+
+.bluehover:hover {
+  color: #34b4e4; }
 
 #language {
   text-align: center;
   position:relative;
   bottom: -110px;
+}
+
+span.text {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  display: table;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 160px;
+  width: 160px;
+  border-radius: 30px;
+  margin:auto;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'myraid', sans-serif;
+  font-size: 15px;
+}
+
+.picturegrid:hover span.text{
+  opacity: 1;
 }
 
 
@@ -314,21 +349,3 @@ a:link {
   margin: 25px;
   padding: 10px;
   background-color: lightgrey; }
-
-#education {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif; }*/
-
-/*@media only screen and (max-width: 640px) {*/
-  /*style*/
-  /*body {
-    flex-direction: column; }
-
-  .sidebar {
-    width: 100%; }
-
-  .content {
-    width: 100%; }
-
-  #picture {
-    width: 50%; } }*/
