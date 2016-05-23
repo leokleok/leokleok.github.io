@@ -224,18 +224,33 @@ span.text span {
   opacity: 1;
 }
 
+@media only screen  and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  body {
+    flex-wrap: wrap;
+    }
+
+  .sidebar {
+    width: 35%;
+  }
+
+  .projects {
+    width: 64%;
+  }
+}
+
 @media only screen and (max-width: 640px) {
 
 body {
   flex-wrap: wrap;
   }
+
 .sidebar {
   width: 100%;
 }
 
-.projects{
+.projects {
   width: 300%;
-  flex-direction: column;
+  flex-direction: row;
  }
 
 .gridrow{
@@ -256,7 +271,7 @@ body {
 
 body {
  flex-wrap: wrap;
- -direction: row;
+ direction: row;
 }
 
 .sidebar {
