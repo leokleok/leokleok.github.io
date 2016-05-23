@@ -7,7 +7,7 @@ body {
   border-radius: 30px;
   background-color:#34b4e4;
   width: 35%;
-  height: auto;
+  height: 100%;
   text-align: center;
 }
 /*background-color: #429bd5;*/
@@ -280,16 +280,4 @@ body {
 .grid {
    width: 100%;
  }
-}
-
-/*@media screen and (min-width: 1025px) {
-  .sidebar {
-   width: 35%;
-   height: auto;
-  }
-  .projects {
-    width: 64%;
-    height: auto;
-  }*/
-
 }
