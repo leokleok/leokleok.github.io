@@ -246,7 +246,7 @@ body {
 
 footer {
   position: relative;
-  bottom: -136px;
+  bottom: -116px;
 }
 
 .gridrow{
@@ -262,7 +262,9 @@ footer {
 }
 
 #typingelement {
-  font-size: 20px;
+  font-size: 18px;
+  position:relative;
+  bottom: -120px;
 }
 
 #aboutme {
