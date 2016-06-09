@@ -196,10 +196,15 @@ a{
   color: #34b4e4;
 }
 
+.github {
+  position: relative;
+  bottom: -70px;
+}
+
 #language {
   text-align: center;
   position:relative;
-  bottom: -110px;
+  bottom: -70px;
 }
 
 span.text {
